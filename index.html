@@ -1,31 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ISTE 2019</title>
-    <link rel="icon" type="image/gif" href="images/favicon.gif">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ISTE 2019</title>
+<link rel="icon" type="image/gif" href="images/favicon.gif">
+<link rel="stylesheet" type="text/css" href="css/frui.css">
+<style type="text/css">
+	.top {
+
+	}
+</style>
+<script>
+	(function () {	//simple script to animate the header
+	var afterTop = false;	//assuming zero scroll initially
+	window.addEventListener('scroll', function () {
+		if (window.pageYOffset > 165 && !afterTop) {
+		  afterTop = true;
+		  document.getElementById('mobile-bar').classList.remove('top');
+		} else if (window.pageYOffset <= 165 && afterTop) {
+		  afterTop = false;
+		  document.getElementById('mobile-bar').classList.add('top');
+		}
+	});
+	})();
+	function(e) {
+		e.preventDefault();
+		var $anchor = $(this);
+		$('html, body').stop().animate({
+			scrollTop: $($anchor.attr('href')).offset().top
+		}, 1500, 'easeInOutExpo');
+	}
+</script>
 </head>
 <body>
-	<!-- TODO: Put all of this in a container -->
+<div class="frui-container">
 <header>
 	<!--	This will contain the header of the whole thing	-->
-	<div >
-		
+	<div id="header">
+		<!-- 	Put a simple header with logo
+				and menu for mobile devices -->
+	</div>
+	<div class="frui-hero" style="background-image: url('images/landing.jpg'); ">
+		<div style="color: white; background-color: rgba(0,0,0,0.5); padding: 20px;">
+			<center>
+				<span class="frui-text-large" style=" font-family: 'Montserrat';">1 week ISTE workshop</span>
+				<h3>on</h3>
+				<h2>Virtual Reality, Augmented Reality, and 3D modelling</h2>
+				<p style="margin: 20px; font-family: 'Montserrat';">
+					Organized by<br>
+					<b>Department of Computer Engineering<br>
+					Don Bosco College of Engineering, Fatorda, Goa</b>
+				</p>
+			</center>
+		</div>
 	</div>
 </header>
 
 <!-- Put all of the required things here -->
-<div>
+<div class="frui-panel">
 	
 </div>
 
 <footer>
 	<!--	This will contain the footer of the whole thing	-->
 </footer>
+</div>
 
 <!-- Also, since this webpage will be hosted online anyway, we can load the CSS from from CDNs directly, no problem! -->
-<link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
-<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 </body>
 </html>

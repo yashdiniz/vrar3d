@@ -11,7 +11,74 @@
 	THE CONTENTS OF THIS FILE IS CURRENTLY UNDER NO LICENSE, AND SO THE AUTHOR RESERVES ALL RIGHTS.
 */
 
+*, html, body {
+	font-family: Arial, Verdana, Tahoma;
+	margin: 0;
+	padding: 0;
+}
 
+.frui-container {
+	font-family: sans-serif !important;
+	display: grid !important;
+}
+.frui-hero {
+	background-size: cover;
+	background-attachment: fixed;	/* prevent background scroll */
+	background-repeat: no-repeat;
+	font-size: 24px;
+}
+
+/* typography */
+.frui-text-largest {
+	font-weight: 300;
+	font-size: 112px;
+	line-height: 112px;
+}
+.frui-text-large {
+	font-weight: 300;
+	font-size: 56px;
+	line-height: 56px;
+}
+h1, .frui-text-headline {
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 42px;
+	margin: 10px 0 10px 0;
+}
+h2, .frui-text-title {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	margin: 10px 0 10px 0;
+}
+h3, .frui-text-subhead {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	margin: 10px 0 10px 0;
+}
+h4, h5, h6, .frui-text-body {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 10px 0 10px 0;
+}
+.frui-text-caption {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+}
+.frui-text-menu {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+.frui-text-button {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
 
 /* a few CSS helpers */
 .--no-user-select {	/* elements with this property prevent UI selection! */
