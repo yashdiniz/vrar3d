@@ -1,0 +1,156 @@
+/*
+	Yash's Flat & Round User Interface(YFRUI)(pronounced e-froo-ey)
+	is a new UI designed by me. Inspired by Material UI(https://material.io)
+	but less materialistic, this is my venture into building basic UI frameworks
+	with a minimalistic and professional look.
+	I plan on using this UI for all my personal web projects from now on.
+
+	This code serves to be a template for this website.
+
+	author: Yash Diniz;
+	THE CONTENTS OF THIS FILE IS CURRENTLY UNDER NO LICENSE, AND SO THE AUTHOR RESERVES ALL RIGHTS.
+*/
+
+
+
+/* a few CSS helpers */
+.--no-user-select {	/* elements with this property prevent UI selection! */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.--overflow-hidden {
+	overflow: hidden !important;
+}
+.--overflow-hidden-x {
+	overflow-x: hidden !important;
+}
+.--overflow-hidden-y {
+	overflow-y: hidden !important;
+}
+.--show {
+	display: block !important;
+}
+.--invisible {
+	visibility: hidden;
+}
+.--hide {
+	display: none !important;
+}
+/* CSS helpers for reponsiveness */
+@media (max-width: 599px) {
+	.--visible-xs {
+		display: block !important;
+	}
+	table.--visible-xs {
+		display: table;
+	}
+	tr.--visible-xs {
+		display: table-row !important;
+	}
+	th.--visible-xs, td.--visible-xs {
+		display: table-cell !important;
+	}
+	.--visible-xs-inline {
+		display: inline !important;
+	}
+	.--visible-xs-inline-block {
+		display: inline-block !important;
+	}
+	.--hidden-xs {
+		display: none !important;
+	}
+}
+@media (min-width: 600px) and (max-width: 767px) {
+	.--visible-sm {
+		display: block !important;
+	}
+	table.--visible-sm {
+		display: table;
+	}
+	tr.--visible-sm {
+		display: table-row !important;
+	}
+	th.--visible-sm, td.--visible-sm {
+		display: table-cell !important;
+	}
+	.--visible-sm-inline {
+		display: inline !important;
+	}
+	.--visible-sm-inline-block {
+		display: inline-block !important;
+	}
+	.--hidden-sm {
+		display: none !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.--visible-md {
+		display: block !important;
+	}
+	table.--visible-md {
+		display: table;
+	}
+	tr.--visible-md {
+		display: table-row !important;
+	}
+	th.--visible-md, td.--visible-md {
+		display: table-cell !important;
+	}
+	.--visible-md-inline {
+		display: inline !important;
+	}
+	.--visible-md-inline-block {
+		display: inline-block !important;
+	}
+	.--hidden-md {
+		display: none !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.--visible-lg {
+		display: block !important;
+	}
+	table.--visible-lg {
+		display: table;
+	}
+	tr.--visible-lg {
+		display: table-row !important;
+	}
+	th.--visible-lg, td.--visible-lg {
+		display: table-cell !important;
+	}
+	.--visible-lg-inline {
+		display: inline !important;
+	}
+	.--visible-lg-inline-block {
+		display: inline-block !important;
+	}
+	.--hidden-lg {
+		display: none !important;
+	}
+}
+@media (min-width: 1200px) {
+	.--visible-xl {
+		display: block !important;
+	}
+	table.--visible-xl {
+		display: table;
+	}
+	tr.--visible-xl {
+		display: table-row !important;
+	}
+	th.--visible-xl, td.--visible-xl {
+		display: table-cell !important;
+	}
+	.--visible-xl-inline {
+		display: inline !important;
+	}
+	.--visible-xl-inline-block {
+		display: inline-block !important;
+	}
+	.--hidden-xl {
+		display: none !important;
+	}
+}

@@ -1,0 +1,5 @@
+# ignore the confidentials
+docs/*
+
+# ignore the sublime project
+*.sublime-*
