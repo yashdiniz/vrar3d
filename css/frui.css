@@ -27,6 +27,29 @@
 	background-repeat: no-repeat;
 	font-size: 24px;
 }
+.frui-panel {
+	border: solid thin #aaa;
+	border-radius: 1rem;
+	padding: 10px;
+	margin: 20px 30px 20px 30px;
+}
+.frui-divider-bottom, .frui-divider {
+	border-bottom: solid thin #bbb;
+}
+.frui-divider-top {
+	border-top: solid thin #bbb;
+}
+.frui-divider-left {
+	border-left: solid thin #bbb;
+}
+.frui-divider-right {
+	border-right: solid thin #bbb;
+}
+p {
+	margin: 10px;
+	text-align: justify;
+	line-height: 24px;
+}
 
 /* typography */
 .frui-text-largest {
