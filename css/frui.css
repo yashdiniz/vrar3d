@@ -12,13 +12,14 @@
 */
 
 *, html, body {
-	font-family: Arial, Verdana, Tahoma;
+	font-family: "Roboto", "Helvetica Neue", sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
 .frui-container {
 	font-family: sans-serif !important;
+	background-color: #f5f5f5;
 	display: grid !important;
 }
 .frui-hero {
@@ -49,6 +50,7 @@ p {
 	margin: 10px;
 	text-align: justify;
 	line-height: 24px;
+	color: #424242;
 }
 
 /* typography */
@@ -67,6 +69,7 @@ h1, .frui-text-headline {
 	font-size: 34px;
 	line-height: 42px;
 	margin: 10px 0 10px 0;
+	color: #414141;
 }
 h2, .frui-text-title {
 	font-weight: 400;
@@ -90,6 +93,7 @@ h4, h5, h6, .frui-text-body {
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 16px;
+	color: #414141;
 }
 .frui-text-menu {
 	font-weight: 500;
