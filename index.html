@@ -21,6 +21,16 @@
 	.frui-grid-container img {
 		max-width: 125px;
 	}
+	.imglogos {
+		grid-template-columns: 25% 25% 25% auto;
+		grid-template-rows: auto;
+	}
+	@media (max-width: 800px) {
+		.imglogos {
+			grid-template-columns: 50% auto;
+			grid-template-rows:  50% auto;
+		}
+	}
 	.top {
 
 	}
@@ -93,7 +103,7 @@
 	<center>
 	<span style="border-color: #f95b0c;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Software Introduced Here&nbsp;&nbsp;</span>
 	<p style="width: 75%;">Along with many more things, this workshop will also introduce you to the following software. Click on the logos below to learn more.</p>
-	<div class="frui-grid-container" style="grid-template-columns: 25% 25% 25% auto; grid-template-rows: auto; width: 75%;">
+	<div class="frui-grid-container imglogos" style="width: 75%;">
 		<!-- Yes, they are cluttered intentionally on small phone screens -->
 		<a href="https://www.autodesk.com/products/fusion-360/overview" title="Fusion360: Cloud Powered 3D CAD/CAM Software for Product Design"><img src="images/fusion360.png"></a>
 		<a href="https://www.sketchup.com/" title="SketchUp: 3D Design Software"><img src="images/sketchup.png"></a>
@@ -110,7 +120,7 @@
 	<span style="border-color: #f95b0c;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Register&nbsp;&nbsp;</span>
 	<p style="width: 75%;">
 		In order to register, click the link given below and fill the form details correctly. The following registration fees apply.
-		<table style="width: 75%;">
+		<table class="frui-table" style="width: 75%;">
 			<tr><th>Registration Type</th><th>Fee</th></tr>
 			<tr><td>Industry</td><td align="right">Rs. 5,000</td></tr>
 			<tr><td>Faculty</td><td align="right">Rs. 3,500</td></tr>
@@ -136,6 +146,20 @@
 
 <footer>
 	<!--	This will contain the footer of the whole thing	-->
+	<div class="frui-container" style="background-color: #242424; grid-template-columns:50% auto; grid-template-rows: 90% auto;">
+		<div>
+			
+		</div>
+		<div>
+			
+		</div>
+		<div>
+			
+		</div>
+		<div>
+			
+		</div>
+	</div>
 </footer>
 </div>
 

@@ -76,8 +76,15 @@ a:visited {
 a:hover {
 	color: #174EA6;
 }
-a:hover img {
+/*This is the default look for all a*/
+a img {
 	transition: ease .5s;
+	transform: matrix(1,0,0,1,0,0);			/* 2x2 matrix with translateX, translateY as the 6 values */
+	-moz-transform: matrix(1,0,0,1,0,0);	/* 2x2 matrix with translateX, translateY as the 6 values */
+	-webkit-transform: matrix(1,0,0,1,0,0);	/* 2x2 matrix with translateX, translateY as the 6 values */
+}
+a:hover img {
+	transition: ease-in-out .5s;
 	transform: matrix(1.1,0,0,1.1,0,5);			/* 2x2 matrix with translateX, translateY as the 6 values */
 	-moz-transform: matrix(1.1,0,0,1.1,0,5);	/* 2x2 matrix with translateX, translateY as the 6 values */
 	-webkit-transform: matrix(1.1,0,0,1.1,0,5);	/* 2x2 matrix with translateX, translateY as the 6 values */
