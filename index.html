@@ -5,34 +5,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ISTE 2019</title>
 <link rel="icon" type="image/gif" href="images/favicon.gif">
+<!-- This code uses an early version of Yash's FRUI -->
 <link rel="stylesheet" type="text/css" href="css/frui.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/particles.js"></script>
 <style type="text/css">
+	span.frui-divider {	/*These attributes will only apply on this page*/
+		border-width: 2px;
+		font-family: 'Montserrat';
+	}
+	.goodfont {
+		font-family: 'Montserrat';
+		text-align: center;
+	}
+	.frui-grid-container img {
+		max-width: 125px;
+	}
 	.top {
 
 	}
 </style>
 <script>
-	(function () {	//simple script to animate the header
-	var afterTop = false;	//assuming zero scroll initially
-	window.addEventListener('scroll', function () {
-		if (window.pageYOffset > 165 && !afterTop) {
-		  afterTop = true;
-		  document.getElementById('mobile-bar').classList.remove('top');
-		} else if (window.pageYOffset <= 165 && afterTop) {
-		  afterTop = false;
-		  document.getElementById('mobile-bar').classList.add('top');
-		}
-	});
-	})();
-	function(e) {	//smooth-scroll for links
-		e.preventDefault();
-		var $anchor = $(this);
-		$('html, body').stop().animate({
-			scrollTop: $($anchor.attr('href')).offset().top
-		}, 500, 'easeInOutExpo');
-	}
+	// (function () {	//simple script to animate the header
+	// var afterTop = false;	//assuming zero scroll initially
+	// window.addEventListener('scroll', function () {
+	// 	if (window.pageYOffset > 165 && !afterTop) {
+	// 	  afterTop = true;
+	// 	  document.getElementById('mobile-bar').classList.remove('top');
+	// 	} else if (window.pageYOffset <= 165 && afterTop) {
+	// 	  afterTop = false;
+	// 	  document.getElementById('mobile-bar').classList.add('top');
+	// 	}
+	// });
+	// })();
+	$(document).ready(function() {
+		$("a[href*='#']").click(function(e) {	//smooth-scroll for links
+			e.preventDefault();
+			var $anchor = $(e.target);
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 500);
+		});
+	})
 </script>
 </head>
 <body>
@@ -46,52 +60,72 @@
 	<!-- <div id="particles-js">
 		<canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
 	</div> -->
-	<div class="frui-hero --no-user-select" style="background-image: url('images/landing.jpg'); ">
-		<div style="color: white; background-color: rgba(0,0,0,0.5); padding: 20px; top:0;">
-			<center>
-				<span class="frui-text-large" style="font-family: 'Montserrat';">1 week ISTE workshop</span>
+	<div class="frui-hero --no-user-select" style="background-image: url('images/landing.jpg');">
+		<!-- Forced this hero to 540px height to accomodate the whole image -->
+		<div style="color: white; background-color: rgba(0,0,0,0.7); padding: 150px 0 0 0; height: 450px;">
+				<span class="frui-text-large goodfont">1 week ISTE workshop</span>
 				<h3>on</h3>
 				<h2>Virtual Reality, Augmented Reality, and 3D modelling</h2>
-				<p style="margin: 20px; font-family: 'Montserrat'; text-align: center; color: white;">
+				<p style="margin: 20px; color: white;" class="goodfont">
 					Organized by<br>
 					<b>Department of Computer Engineering<br>
 					Don Bosco College of Engineering, Fatorda, Goa</b>
 				</p>
-			</center>
 		</div>
 	</div>
 </header>
 
 <!-- Put all of the required things here -->
-<div class="frui-section">
-<div class="frui-panel" id="details">
+<div class="frui-section" id="details">
+<div class="frui-panel">
 	<center>
-		<span style="border-color: #ff1719; border-width: 2px; font-family: 'Montserrat';" class="frui-divider frui-text-headline">&nbsp;&nbsp;Workshop Details&nbsp;&nbsp;</span>
-		<p style="width: 75%;">
-			The purpose of this workshop is to teach the participants how to create an adaptive 3D virtual environment that meets the needs of the end user, and also to test and evaluate that virtual environment. This workshop also promotes the use of Augmented Reality(AR) and 3D Modelling. We will broadly cover the following topics: VR and AR, Animation and Visual Designing, 3D modelling and Projection Mapping, Visual Game development using Unity 3D and an introduction to development tools like Fusion360, Sketchup, etc. 
-			<br>Eminent personalities and experts in the above areas from academia, industries and government organisations will lead the discussion and deliver technical details.
-			<br><br><a href="#register">Register for Event</a>
-		</p>
+	<span style="border-color: #ff1719;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Workshop Details&nbsp;&nbsp;</span>
+	<p style="width: 75%;">
+		The purpose of this workshop is to teach the participants how to create an adaptive 3D virtual environment that meets the needs of the end user, and also to test and evaluate that virtual environment. This workshop also promotes the use of Augmented Reality(AR) and 3D Modelling. We will broadly cover the following topics: VR and AR, Animation and Visual Designing, 3D modelling and Projection Mapping, Visual Game development using Unity 3D and an introduction to development tools like Fusion360, Sketchup, etc. 
+		<br>Eminent personalities and experts in the above areas from academia, industries and government organisations will lead the discussion and deliver technical details.
+		<br><br><a href="#register">Register for Event</a>
+	</p>
 	</center>
 </div>
 </div>
-<div class="frui-section">
-<div class="frui-panel" id="software">
+<div class="frui-section" id="software">
+<div class="frui-panel">
 	<center>
-		<span style="border-color: #f95b0c; border-width: 2px; font-family: 'Montserrat';" class="frui-divider frui-text-headline">&nbsp;&nbsp;Software Introduced Here&nbsp;&nbsp;</span>
-		<p style="width: 75%; text-align: center;">Click on the logos to learn more.</p>
-		<div class="frui-grid-container" style="grid-template-columns: 25% 25% 25% auto; grid-template-rows: 25% 25% 25% auto; width: 75%;">
-			<a href="https://www.sketchup.com/" title="SketchUp: 3D Design Software"><img src="images/sketchup.png" style="width: 200px; height: 200px;"></a>
-			<a href="https://www.autodesk.com/products/fusion-360/overview" title="Fusion360: Cloud Powered 3D CAD/CAM Software for Product Design"><img src="images/fusion360.png" style="width: 200px; height: 200px;"></a>
-		</div>
+	<span style="border-color: #f95b0c;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Software Introduced Here&nbsp;&nbsp;</span>
+	<p style="width: 75%;">Along with many more things, this workshop will also introduce you to the following software. Click on the logos below to learn more.</p>
+	<div class="frui-grid-container" style="grid-template-columns: 25% 25% 25% auto; grid-template-rows: 25% 25% 25% auto; width: 75%;">
+		<!-- Yes, they are cluttered intentionally on small phone screens -->
+		<a href="https://www.autodesk.com/products/fusion-360/overview" title="Fusion360: Cloud Powered 3D CAD/CAM Software for Product Design"><img src="images/fusion360.png"></a>
+		<a href="https://www.sketchup.com/" title="SketchUp: 3D Design Software"><img src="images/sketchup.png"></a>
+		<a href="https://unity3d.com/" title="Unity: Cross platform Game Engine"><img src="images/unity3d.png"></a>
+		<a href="https://www.adobe.com/" title="Adobe: Tools for many, many things"><img src="images/adobe.png"></a>
+	</div>
 	</center>
 </div>
 </div>
 
-<div class="frui-section">
-<div class="frui-panel" id="aboutISTE" >
+<div class="frui-section" id="register">
+<div class="frui-panel">
 	<center>
-	<span style="border-color: #4fa2f8; border-width: 2px; font-family: 'Montserrat';" class="frui-divider frui-text-headline">&nbsp;&nbsp;About ISTE&nbsp;&nbsp;</span>
+	<span style="border-color: #f95b0c;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Register&nbsp;&nbsp;</span>
+	<p style="width: 75%;">
+		In order to register, click the link given below and fill the form details correctly. The following registration fees apply.
+		<table style="width: 75%;">
+			<tr><th>Registration Type</th><th>Fee</th></tr>
+			<tr><td>Industry</td><td align="right">Rs. 5,000</td></tr>
+			<tr><td>Faculty</td><td align="right">Rs. 3,500</td></tr>
+			<tr><td>PG Student</td><td align="right">Rs. 2,500</td></tr>
+		</table>
+		<br><br><a href="https://forms.google.com">TODO: Link Google form of the event.</a>
+	</p>
+	</center>
+</div>
+</div>
+
+<div class="frui-section" id="aboutISTE">
+<div class="frui-panel">
+	<center>
+	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">&nbsp;&nbsp;About ISTE&nbsp;&nbsp;</span>
 	<p style=" width: 75%;">
 		The Indian Society for Technical Education (ISTE) is the leading National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System. At present, ISTE has a very large and an effective membership base consisting of more than 1,02,985 Life Members, 5,54,094 Student Members, 2410 Institutional Members (including IITs, IISc, NITs and other leading technical institutions), 1214 Faculty Chapters, 1322 Students Chapters and 17 Sections throughout the country. The major objective of the ISTE is to provide quality training programmes to teachers and administrators of technical institutions to update their knowledge and skills in their fields of activity and to assist and contribute in the production and development of top quality professional engineers and technicians needed by the industry and other organizations.
 		<br><br><a href="http://www.isteonline.in/">Visit ISTE online</a>
