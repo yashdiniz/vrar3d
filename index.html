@@ -26,16 +26,30 @@
 		grid-template-columns: 25% 25% 25% auto;
 		grid-template-rows: auto;
 	}
+	.contacts {
+		grid-template-columns: 33% 33% auto;
+		grid-template-rows: auto;
+		overflow-wrap: break-word;
+		hyphens: auto;
+	}
 	@media (max-width: 800px) {
 		.imglogos {
 			grid-template-columns: 50% auto;
 			grid-template-rows:  50% auto;
+		}
+		.contacts {
+			grid-template-columns: 50% auto;
+			grid-template-rows: 50% auto;
 		}
 	}
 	@media (max-width: 500px) {
 		.imglogos {
 			grid-template-columns: auto;
 			grid-template-rows:  25% 25% 25% auto;
+		}
+		.contacts {
+			grid-template-columns: auto;
+			grid-template-rows: 33% 33% auto;
 		}
 	}
 	.top {
@@ -67,6 +81,18 @@
 </script>
 </head>
 <body>
+<!-- ignoring the drawer because this is landing page -->
+<!--<div class="frui-drawer --hidden-xs --hidden-sm">
+	<img src="images/logo.jpg">
+	<ul>
+		<li><a href="#video">Welcome Video</a></li>
+		<li><a href="#details">Workshop Details</a></li>
+		<li><a href="#software">Software Introduced</a></li>
+		<li><a href="#register">Register for event</a></li>
+		<li><a href="#contactus">Contact Us</a></li>
+		<li><a href="#aboutISTE">About ISTE</a></li>
+	</ul>
+</div>-->
 <div class="frui-container">
 <header>
 	<!--	This will contain the header of the whole thing	-->
@@ -150,6 +176,25 @@
 <div class="frui-panel">
 	<center>
 	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Contact Us&nbsp;&nbsp;</span>
+	<p style="width: 75%; padding: 10px">You can contact the faculty coordinators of this event using the details given below.
+	<div class="frui-grid-container contacts" style="width: 80%;">
+		<p>
+			<i class="fa fa-address-card"></i><b>Maria Christina Barretto</b><br>
+			<i class="fa fa-envelope-o"></i>&nbsp;<a href="mailto:christina.barretto@dbcegoa.ac.in">christina.barretto@dbcegoa.ac.in</a><br>
+			<i class="fa fa-phone"></i>&nbsp;<a href="tel:">TODO: get phone number</a>
+		</p>
+		<p>
+			<i class="fa fa-address-card"></i><b>Norman Dias</b><br>
+			<i class="fa fa-envelope-o"></i>&nbsp;<a href="mailto:norman.dias@dbcegoa.ac.in">norman.dias@dbcegoa.ac.in</a><br>
+			<i class="fa fa-phone"></i>&nbsp;<a href="tel:">TODO: get phone number</a>
+		</p>
+		<p>
+			<i class="fa fa-address-card"></i><b>Sweta Morajkar</b><br>
+			<i class="fa fa-envelope-o"></i>&nbsp;<a href="mailto:sweta.morajkar@dbcegoa.ac.in">sweta.morajkar@dbcegoa.ac.in</a><br>
+			<i class="fa fa-phone"></i>&nbsp;<a href="tel:">TODO: get phone number</a>
+		</p>
+	</div>
+	</p>
 	</center>
 </div>
 </div>
@@ -158,7 +203,7 @@
 <div class="frui-panel">
 	<center>
 	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">&nbsp;&nbsp;About ISTE&nbsp;&nbsp;</span>
-	<p style=" width: 75%;">
+	<p style="width: 75%;">
 		The Indian Society for Technical Education (ISTE) is the leading National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System. At present, ISTE has a very large and an effective membership base consisting of more than 1,02,985 Life Members, 5,54,094 Student Members, 2410 Institutional Members (including IITs, IISc, NITs and other leading technical institutions), 1214 Faculty Chapters, 1322 Students Chapters and 17 Sections throughout the country. The major objective of the ISTE is to provide quality training programmes to teachers and administrators of technical institutions to update their knowledge and skills in their fields of activity and to assist and contribute in the production and development of top quality professional engineers and technicians needed by the industry and other organizations.
 		<br><br><a href="http://www.isteonline.in/"><i class="fa fa-external-link-square"></i>Visit ISTE online</a>
 	</p>
@@ -169,8 +214,8 @@
 <footer>
 	<!--	This will contain the footer of the whole thing	-->
 	<div class="frui-footer-section">
-		<span class="frui-text-body mui-divider" style="border-color: white">Clicky Stuff</span>
-		<div class="frui-container frui-footer-section" style="grid-template-columns: auto; grid-template-rows: 80% auto;">
+		<span class="frui-text-body frui-divider" style="border-color: white">Clicky Stuff</span>
+		<div class="frui-grid-container frui-footer-section" style="grid-template-columns: auto; grid-template-rows: 80% auto;">
 			<span><a href="#video">Welcome Video</a></span>
 			<span><a href="#details">Workshop Details</a></span>
 			<span><a href="#software">Software Introduced</a></span>

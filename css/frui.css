@@ -46,6 +46,26 @@
 	display: grid !important;
 	padding: 10px;
 }
+
+/* side drawer in FRUI */
+.frui-drawer {
+	font-family: "Helvetica Neue", sans-serif;
+	background-color: #f5f5f5;
+	position: fixed;
+	height: 100%;
+	width: 200px;
+	border-right: solid thin #e2e2e2;
+}
+.frui-drawer li {
+	color: #424242;
+	padding: 15px 10px 15px 5px;
+}
+.frui-drawer li:hover, .frui-drawer li:active {
+	transition: ease .5s;
+	background-color: #e2e2e2;
+}
+
+/* dividers in FRUI */
 .frui-divider-bottom, .frui-divider {
 	border-bottom: solid thin #bbb;
 }
@@ -63,6 +83,8 @@ p {
 	text-align: justify;
 	line-height: 24px;
 	color: #424242;
+	overflow-wrap: break-word;
+	hyphens: auto;
 }
 a:link, a:active {
 	font-weight: 500;
