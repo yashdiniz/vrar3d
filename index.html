@@ -17,6 +17,7 @@
 	.goodfont {
 		font-family: 'Montserrat';
 		text-align: center;
+		line-height: 34px;
 	}
 	.frui-grid-container img {
 		max-width: 125px;
@@ -29,6 +30,12 @@
 		.imglogos {
 			grid-template-columns: 50% auto;
 			grid-template-rows:  50% auto;
+		}
+	}
+	@media (max-width: 500px) {
+		.imglogos {
+			grid-template-columns: auto;
+			grid-template-rows:  25% 25% 25% auto;
 		}
 	}
 	.top {
@@ -51,7 +58,7 @@
 	$(document).ready(function() {
 		$("a[href*='#']").click(function(e) {	//smooth-scroll for links
 			e.preventDefault();
-			var $anchor = $(e.target);
+			var $anchor = $(this);
 			$('html, body').stop().animate({
 				scrollTop: $($anchor.attr('href')).offset().top
 			}, 500);
@@ -64,15 +71,11 @@
 <header>
 	<!--	This will contain the header of the whole thing	-->
 	<div id="header">
-		<!-- 	Put a simple header with logo
-				and menu for mobile devices -->
+		<!-- 	Put a simple header with logo and menu for mobile devices -->
 	</div>
-	<!-- <div id="particles-js">
-		<canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
-	</div> -->
-	<div class="frui-hero --no-user-select" style="background-image: url('images/landing.jpg');">
+	<div class="frui-hero --no-user-select" id="top" style="background-image: url('images/landing.jpg');">
 		<!-- Forced this hero to 540px height to accomodate the whole image -->
-		<div style="color: white; background-color: rgba(0,0,0,0.7); padding: 150px 0 0 0; height: 450px;">
+		<div style="color: white; background-color: rgba(0,0,0,0.7); padding: 150px 0 50px 0; height: 450px;">
 				<span class="frui-text-large goodfont">1 week ISTE workshop</span>
 				<h3>on</h3>
 				<h2>Virtual Reality, Augmented Reality, and 3D modelling</h2>
@@ -81,11 +84,21 @@
 					<b>Department of Computer Engineering<br>
 					Don Bosco College of Engineering, Fatorda, Goa</b>
 				</p>
+				<a href="#details"><button class="frui-btn frui-btn--large frui-btn--primary">Learn More</button></a>
 		</div>
 	</div>
 </header>
 
 <!-- Put all of the required things here -->
+<div class="frui-section" id="video">
+<div class="frui-panel">
+	<center>
+	<span style="border-color: #ff1719;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Video&nbsp;&nbsp;</span>
+	<p style="width: 75%;">TODO: Embed welcome video.<i class="fa fa-youtube-play"></i></p>
+	</center>
+</div>
+</div>
+
 <div class="frui-section" id="details">
 <div class="frui-panel">
 	<center>
@@ -98,6 +111,7 @@
 	</center>
 </div>
 </div>
+
 <div class="frui-section" id="software">
 <div class="frui-panel">
 	<center>
@@ -126,8 +140,16 @@
 			<tr><td>Faculty</td><td align="right">Rs. 3,500</td></tr>
 			<tr><td>PG Student</td><td align="right">Rs. 2,500</td></tr>
 		</table>
-		<br><br><a href="https://forms.google.com">TODO: Link Google form of the event.</a>
+		<br><br><a href="https://forms.google.com"><i class="fa fa-pencil-square"></i>TODO: Link Google form of the event.</a>
 	</p>
+	</center>
+</div>
+</div>
+
+<div class="frui-section" id="contactus">
+<div class="frui-panel">
+	<center>
+	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Contact Us&nbsp;&nbsp;</span>
 	</center>
 </div>
 </div>
@@ -138,7 +160,7 @@
 	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">&nbsp;&nbsp;About ISTE&nbsp;&nbsp;</span>
 	<p style=" width: 75%;">
 		The Indian Society for Technical Education (ISTE) is the leading National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System. At present, ISTE has a very large and an effective membership base consisting of more than 1,02,985 Life Members, 5,54,094 Student Members, 2410 Institutional Members (including IITs, IISc, NITs and other leading technical institutions), 1214 Faculty Chapters, 1322 Students Chapters and 17 Sections throughout the country. The major objective of the ISTE is to provide quality training programmes to teachers and administrators of technical institutions to update their knowledge and skills in their fields of activity and to assist and contribute in the production and development of top quality professional engineers and technicians needed by the industry and other organizations.
-		<br><br><a href="http://www.isteonline.in/">Visit ISTE online</a>
+		<br><br><a href="http://www.isteonline.in/"><i class="fa fa-external-link-square"></i>Visit ISTE online</a>
 	</p>
 	</center>
 </div>
@@ -146,18 +168,17 @@
 
 <footer>
 	<!--	This will contain the footer of the whole thing	-->
-	<div class="frui-container" style="background-color: #242424; grid-template-columns:50% auto; grid-template-rows: 90% auto;">
-		<div>
-			
-		</div>
-		<div>
-			
-		</div>
-		<div>
-			
-		</div>
-		<div>
-			
+	<div class="frui-footer-section">
+		<span class="frui-text-body mui-divider" style="border-color: white">Clicky Stuff</span>
+		<div class="frui-container frui-footer-section" style="grid-template-columns: auto; grid-template-rows: 80% auto;">
+			<span><a href="#video">Welcome Video</a></span>
+			<span><a href="#details">Workshop Details</a></span>
+			<span><a href="#software">Software Introduced</a></span>
+			<span><a href="#register">Register for event</a></span>
+			<span><a href="#contactus">Contact Us</a></span>
+			<span><a href="#aboutISTE">About ISTE</a></span>
+			<span><a href="#top">Back to top</a></span>
+			<div class="frui-copyright-section frui-text-body" style="grid-column-start: span 2;">FRUI framework and Page Design by <a href="https://github.com/yashdiniz"><i class="fa fa-github"></i>/Yash Diniz</a>.</div>
 		</div>
 	</div>
 </footer>

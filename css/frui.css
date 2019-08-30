@@ -22,7 +22,7 @@
 .frui-container {
 	font-family: "Helvetica Neue", sans-serif;
 	background-color: #f5f5f5;
-	display: grid !important;
+	display: grid;
 }
 .frui-section {
 	padding: 50px 0 0 20px;
@@ -43,9 +43,8 @@
 	margin: 20px 30px 20px 30px;
 }
 .frui-grid-container {				/* for an element with basic grid */
-	display: grid;
+	display: grid !important;
 	padding: 10px;
-	margin: 10px;
 }
 .frui-divider-bottom, .frui-divider {
 	border-bottom: solid thin #bbb;
@@ -141,25 +140,123 @@ h4, h5, h6, .frui-text-body {
 }
 .frui-text-button {
 	font-weight: 700;
-	font-size: 14px;
-	line-height: 24px;
+	font-size: 16px;
 	text-transform: uppercase;
 }
 
+/* BUTTONS in FRUI */
+.frui-btn {
+	padding: 0 26px;
+	display: inline-block;
+	background-color: #fff;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: inherit;
+	letter-spacing: 0.03em;
+	line-height: 36px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	text-align: center;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	-webkit-user-select: none;		/* prevent user selecting the text inside the textbox */
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	position: relative;
+	overflow: hidden;
+	outline: none !important;
+	outline: 0 !important;
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.frui-btn--large {
+	line-height: 50px;
+}
+.frui-btn--primary {
+	color: white;
+	background-color: #4fa2f8;
+}
+.frui-btn--danger {
+	color: white;
+	background-color: #ff1719;
+}
+.frui-btn + .frui-btn {	/* two FRUI buttons next to each other! */
+	margin-left: 10px;
+}
+.frui-btn:hover {
+	outline: none !important;
+	outline: 0 !important;
+	border: none;
+	transition: ease .35s;
+	opacity: 0.8;
+}
+.frui-btn:active {
+	outline: none !important;
+	outline: 0 !important;
+	border: none;
+}
+.frui-btn:focus {
+	outline: none !important;
+	outline: 0 !important;
+	border: none;
+	opacity: 0.9;
+}
+.frui-btn:disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.60;
+}
+
+/* footers in FRUI? */
+.frui-footer-section {
+	padding: 10px;
+	background-color: #242424;
+	color: white;
+}
+footer .frui-copyright-section {
+	color: white;
+	font-weight: 300;
+	padding: 20px;
+	text-align: center;
+}
+.frui-footer-section a {
+	color: white;
+	font-weight: 500;
+}
+.frui-footer-section a:hover {
+	text-decoration: underline;
+}
+
 /* tables in FRUI */
-table th {
+table.frui-table th {
 	font-weight: 500;
 	line-height: 15px;
 	padding: 15px;
 	background-color: #e2e2e2;
 }
-table tr, table td {
+table.frui-table tr, table.frui-table td {
 	line-height: 20px;
 	padding: 15px;
 	border-bottom: solid thin #e5e5e5;
 }
 
 /* a few CSS helpers */
+button, [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+button, input, select {
+	text-transform: none;
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
 .--no-user-select {	/* elements with this property prevent UI selection! */
 	-webkit-user-select: none;
 	-moz-user-select: none;
