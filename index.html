@@ -14,6 +14,16 @@
 		border-width: 2px;
 		font-family: 'Montserrat';
 	}
+	#header {
+		width: 100%;
+		transition: ease .5s;
+		text-align: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: transparent;
+		z-index: 100;
+	}
 	.goodfont {
 		font-family: 'Montserrat';
 		text-align: center;
@@ -31,6 +41,10 @@
 		grid-template-rows: auto;
 		overflow-wrap: break-word;
 		hyphens: auto;
+	}
+	img.dbcelogo {
+		width: auto;
+		height: 100px;
 	}
 	@media (max-width: 800px) {
 		.imglogos {
@@ -52,20 +66,22 @@
 			grid-template-rows: 33% 33% auto;
 		}
 	}
-	.top {
-
-	}
+	/*.top {
+		width: 100%;
+		background-color: transparent !important;
+		text-align: left;
+	}*/
 </style>
 <script>
 	// (function () {	//simple script to animate the header
 	// var afterTop = false;	//assuming zero scroll initially
 	// window.addEventListener('scroll', function () {
-	// 	if (window.pageYOffset > 165 && !afterTop) {
+	// 	if (window.pageYOffset > 450 && !afterTop) {
 	// 	  afterTop = true;
-	// 	  document.getElementById('mobile-bar').classList.remove('top');
-	// 	} else if (window.pageYOffset <= 165 && afterTop) {
+	// 	  document.getElementById('header').classList.remove('top');
+	// 	} else if (window.pageYOffset <= 450 && afterTop) {
 	// 	  afterTop = false;
-	// 	  document.getElementById('mobile-bar').classList.add('top');
+	// 	  document.getElementById('header').classList.add('top');
 	// 	}
 	// });
 	// })();
@@ -81,34 +97,26 @@
 </script>
 </head>
 <body>
-<!-- ignoring the drawer because this is landing page -->
-<!--<div class="frui-drawer --hidden-xs --hidden-sm">
-	<img src="images/logo.jpg">
-	<ul>
-		<li><a href="#video">Welcome Video</a></li>
-		<li><a href="#details">Workshop Details</a></li>
-		<li><a href="#software">Software Introduced</a></li>
-		<li><a href="#register">Register for event</a></li>
-		<li><a href="#contactus">Contact Us</a></li>
-		<li><a href="#aboutISTE">About ISTE</a></li>
-	</ul>
-</div>-->
 <div class="frui-container">
 <header>
 	<!--	This will contain the header of the whole thing	-->
 	<div id="header">
+		<img src="images/logo.jpg" class="frui-logo dbcelogo">
+		<img src="images/FiiRE.png" class="frui-logo dbcelogo">
+		<img src="images/iste.png" class="frui-logo dbcelogo">
 		<!-- 	Put a simple header with logo and menu for mobile devices -->
 	</div>
 	<div class="frui-hero --no-user-select" id="top" style="background-image: url('images/landing.jpg');">
 		<!-- Forced this hero to 540px height to accomodate the whole image -->
-		<div style="color: white; background-color: rgba(0,0,0,0.7); padding: 150px 0 50px 0; height: 450px;">
+		<div style="color: white; background-color: rgba(0,0,0,0.7); padding: 120px 0 50px 0; height: 450px;">
 				<span class="frui-text-large goodfont">1 week ISTE workshop</span>
 				<h3>on</h3>
 				<h2>Virtual Reality, Augmented Reality, and 3D modelling</h2>
-				<p style="margin: 20px; color: white;" class="goodfont">
-					Organized by<br>
+				<p style="margin: 20px; color: white; color: #d0d0d0;" class="goodfont">
+					<span>Organized by</span><br>
 					<b>Department of Computer Engineering<br>
-					Don Bosco College of Engineering, Fatorda, Goa</b>
+					Don Bosco College of Engineering, Fatorda, Goa</b><br>
+					In Association with <b>FiiRE</b>
 				</p>
 				<a href="#details"><button class="frui-btn frui-btn--large frui-btn--primary">Learn More</button></a>
 		</div>
@@ -162,11 +170,12 @@
 		In order to register, click the link given below and fill the form details correctly. The following registration fees apply.
 		<table class="frui-table" style="width: 75%;">
 			<tr><th>Registration Type</th><th>Fee</th></tr>
-			<tr><td>Industry</td><td align="right">Rs. 5,000</td></tr>
+			<tr><td>Industry</td><td align="right">Rs. 4,000</td></tr>
 			<tr><td>Faculty</td><td align="right">Rs. 3,500</td></tr>
+			<tr><td>Research Scholar</td><td align="right">Rs. 3,000</td></tr>
 			<tr><td>PG Student</td><td align="right">Rs. 2,500</td></tr>
 		</table>
-		<br><br><a href="https://forms.google.com"><i class="fa fa-pencil-square"></i>TODO: Link Google form of the event.</a>
+		<br><br><a href="https://forms.gle/1sUT7PqDKiKw2W9S8"><i class="fa fa-pencil-square"></i>Click here to fill the Registration Form.</a>
 	</p>
 	</center>
 </div>
@@ -181,19 +190,37 @@
 		<p>
 			<i class="fa fa-address-card"></i><b>Maria Christina Barretto</b><br>
 			<i class="fa fa-envelope-o"></i>&nbsp;<a href="mailto:christina.barretto@dbcegoa.ac.in">christina.barretto@dbcegoa.ac.in</a><br>
-			<i class="fa fa-phone"></i>&nbsp;<a href="tel:">TODO: get phone number</a>
+			<i class="fa fa-phone"></i>&nbsp;<a href="tel:+919689528808">+91 96895 28808</a>
 		</p>
 		<p>
 			<i class="fa fa-address-card"></i><b>Norman Dias</b><br>
 			<i class="fa fa-envelope-o"></i>&nbsp;<a href="mailto:norman.dias@dbcegoa.ac.in">norman.dias@dbcegoa.ac.in</a><br>
-			<i class="fa fa-phone"></i>&nbsp;<a href="tel:">TODO: get phone number</a>
+			<i class="fa fa-phone"></i>&nbsp;<a href="tel:+919850438230">+91 98504 38230</a>
 		</p>
 		<p>
 			<i class="fa fa-address-card"></i><b>Sweta Morajkar</b><br>
 			<i class="fa fa-envelope-o"></i>&nbsp;<a href="mailto:sweta.morajkar@dbcegoa.ac.in">sweta.morajkar@dbcegoa.ac.in</a><br>
-			<i class="fa fa-phone"></i>&nbsp;<a href="tel:">TODO: get phone number</a>
+			<i class="fa fa-phone"></i>&nbsp;<a href="tel:+919049050007">+91 90490 50007</a>
 		</p>
 	</div>
+	</p>
+	</center>
+	<center>
+	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Committee&nbsp;&nbsp;</span>
+	<p>
+		<i class="fa fa-address-card"></i><b>Maria Christina Barretto</b><br>
+		<i class="fa fa-envelope-o"></i>&nbsp;<a href="mailto:christina.barretto@dbcegoa.ac.in">christina.barretto@dbcegoa.ac.in</a><br>
+		<i class="fa fa-phone"></i>&nbsp;<a href="tel:+919689528808">+91 96895 28808</a>
+	</p>
+	<p>
+		<i class="fa fa-address-card"></i><b>Norman Dias</b><br>
+		<i class="fa fa-envelope-o"></i>&nbsp;<a href="mailto:norman.dias@dbcegoa.ac.in">norman.dias@dbcegoa.ac.in</a><br>
+		<i class="fa fa-phone"></i>&nbsp;<a href="tel:+919850438230">+91 98504 38230</a>
+	</p>
+	<p>
+		<i class="fa fa-address-card"></i><b>Sweta Morajkar</b><br>
+		<i class="fa fa-envelope-o"></i>&nbsp;<a href="mailto:sweta.morajkar@dbcegoa.ac.in">sweta.morajkar@dbcegoa.ac.in</a><br>
+		<i class="fa fa-phone"></i>&nbsp;<a href="tel:+919049050007">+91 90490 50007</a>
 	</p>
 	</center>
 </div>
@@ -214,6 +241,7 @@
 <footer>
 	<!--	This will contain the footer of the whole thing	-->
 	<div class="frui-footer-section">
+		<!-- Oh, the irony in this title -->
 		<span class="frui-text-body frui-divider" style="border-color: white">Clicky Stuff</span>
 		<div class="frui-grid-container frui-footer-section" style="grid-template-columns: auto; grid-template-rows: auto auto;">
 			<span><a href="#video">Welcome Video</a></span>
@@ -223,7 +251,7 @@
 			<span><a href="#contactus">Contact Us</a></span>
 			<span><a href="#aboutISTE">About ISTE</a></span>
 			<span><a href="#top">Back to top</a></span>
-			<div class="frui-copyright-section frui-text-body" style="grid-column-start: span 2;">FRUI framework and Page Design by <a href="https://github.com/yashdiniz"><i class="fa fa-github"></i>/Yash Diniz</a>.</div>
+			<div class="frui-copyright-section frui-text-body" style="grid-column-start: span 2;">FRUI framework and Page Design by <a href="https://github.com/yashdiniz"><i class="fa fa-github"></i>/Yash Diniz</a>, 2019 at DBCE Fatorda.</div>
 		</div>
 	</div>
 </footer>

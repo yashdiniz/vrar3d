@@ -78,6 +78,13 @@
 .frui-divider-right {
 	border-right: solid thin #bbb;
 }
+
+/* FRUI logos */
+img.frui-logo {
+	border: none;
+	border-radius: 1rem;
+}
+
 p {
 	margin: 10px;
 	text-align: justify;
