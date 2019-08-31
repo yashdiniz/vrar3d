@@ -1,0 +1,823 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"tra",
+				"translate3d()\ttransform"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"bc",
+				"background-color\tproperty"
+			],
+			[
+				"alig",
+				"align-content\tproperty"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"grid",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"grid-",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"border",
+				"border-left\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"mr",
+				"margin-top\tproperty"
+			],
+			[
+				"backgroum",
+				"background-attachment\tproperty"
+			],
+			[
+				"backgor",
+				"background-size\tproperty"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"backgro",
+				"background-color\tproperty"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"on",
+				"onfocus\tAttr"
+			],
+			[
+				"markdown",
+				"markdownify"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"insta",
+				"instanceof"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"c",
+				"co\tconstant"
+			],
+			[
+				"O",
+				"Override"
+			],
+			[
+				"to",
+				"toHexString"
+			],
+			[
+				"contin",
+				"containsKey"
+			],
+			[
+				"elemen",
+				"elementAt"
+			],
+			[
+				"for",
+				"for\tfor"
+			],
+			[
+				"retir",
+				"retrieve"
+			],
+			[
+				"conver",
+				"convertFtoC"
+			],
+			[
+				"prin",
+				"printMenu"
+			],
+			[
+				"Chara",
+				"Character"
+			],
+			[
+				"Hash",
+				"HashMap"
+			],
+			[
+				"trhow",
+				"throws"
+			],
+			[
+				"Object",
+				"ObjectOutputStream"
+			],
+			[
+				"isC",
+				"isCandidate"
+			],
+			[
+				"send",
+				"sendCubes"
+			],
+			[
+				"cube",
+				"cubenum"
+			],
+			[
+				"contain",
+				"containsKey"
+			],
+			[
+				"get",
+				"getValue"
+			],
+			[
+				"set",
+				"setCovered"
+			],
+			[
+				"elem",
+				"elementAt"
+			],
+			[
+				"dimen",
+				"dimension"
+			],
+			[
+				"wei",
+				"weight"
+			],
+			[
+				"com",
+				"combine"
+			],
+			[
+				"Q",
+				"qm"
+			],
+			[
+				"bit",
+				"bitCount"
+			],
+			[
+				"p",
+				"p\tprint"
+			],
+			[
+				"shif",
+				"shiftLeft"
+			],
+			[
+				"d",
+				"dd\tTag"
+			],
+			[
+				"cell",
+				"cellspacing\tAttr"
+			],
+			[
+				"toS",
+				"toDecString"
+			],
+			[
+				"power",
+				"power2"
+			],
+			[
+				"buf",
+				"bufsize"
+			],
+			[
+				"var",
+				"VARIABLE"
+			],
+			[
+				"exp",
+				"expr"
+			],
+			[
+				"fun",
+				"funcs"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"res",
+				"returnCubes"
+			],
+			[
+				"dim",
+				"dimension"
+			],
+			[
+				"retu",
+				"returnCubes"
+			],
+			[
+				"oF",
+				"o:f\tObject Method"
+			],
+			[
+				"can",
+				"candidate"
+			],
+			[
+				"ti",
+				"this"
+			],
+			[
+				"cu",
+				"Cube"
+			],
+			[
+				"shift",
+				"shiftLeft"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"Unt",
+				"Uint"
+			],
+			[
+				"By",
+				"Byte"
+			],
+			[
+				"ma",
+				"main\tmain()"
+			],
+			[
+				"write",
+				"writeData"
+			],
+			[
+				"Dup",
+				"duplicates"
+			],
+			[
+				"crea",
+				"createReadStream"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"show",
+				"showProgress"
+			],
+			[
+				"run",
+				"runQueue"
+			],
+			[
+				"add",
+				"addToQueue"
+			],
+			[
+				"stre",
+				"stream"
+			],
+			[
+				"open",
+				"openStreams"
+			],
+			[
+				"ope",
+				"openStreams"
+			],
+			[
+				"maxS",
+				"maxStreams"
+			],
+			[
+				"stream",
+				"streams"
+			],
+			[
+				"conf",
+				"conf"
+			],
+			[
+				"blc",
+				"blacklist"
+			],
+			[
+				"fiel",
+				"fileData"
+			],
+			[
+				"sym",
+				"isSymbolicLink"
+			],
+			[
+				"has",
+				"hasOwnProperty"
+			],
+			[
+				"dup",
+				"dupicates"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"file",
+				"fileData"
+			],
+			[
+				"speak",
+				"speakPage"
+			],
+			[
+				"spee",
+				"speechSynthesis"
+			],
+			[
+				"spea",
+				"Speakbar"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"mysw",
+				"mysql_num_rows"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"mui--text",
+				"mui--text-headline"
+			],
+			[
+				"mui",
+				"mui-btn--flat"
+			],
+			[
+				"rawurl",
+				"rawurldecode"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"mysql_num",
+				"mysql_num_rows"
+			],
+			[
+				"mui--tex",
+				"mui--text-headline"
+			],
+			[
+				"old",
+				"oldpass"
+			],
+			[
+				"sess",
+				"session_destroy"
+			],
+			[
+				"heade",
+				"header"
+			],
+			[
+				"hash",
+				"hash_hmac"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7412,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"help",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/ISTE 2019 landing page",
+		"/G/ISTE 2019 landing page/images",
+		"/G/ISTE 2019 landing page/js"
+	],
+	"file_history":
+	[
+		"/G/ISTE 2019 landing page/css/frui.css",
+		"/G/ISTE 2019 landing page/js/particles.js",
+		"/C/Users/Diniz/AppData/Local/Temp/vrnf2k1y.bmp",
+		"/G/BEcomp/SEcomp/sem 3/SE/npws/npws.sql",
+		"/G/BEcomp/SEcomp/sem 3/SE/npws/npws/uploads/readme.md",
+		"/G/BEcomp/SEcomp/sem 4/nodeJS workshop April 27/cmdline.js",
+		"/G/ethical hacking 9 August 2019/sqlmapproject-sqlmap-de63238/README.md",
+		"/F/BEcomp/OS/PSJF.java",
+		"/G/ethical hacking 9 August 2019/sqlmapproject-sqlmap-de63238/extra/__init__.py",
+		"/G/BEcomp/SEcomp/sem 4/nodeJS workshop April 27/ops.js",
+		"/G/BEcomp/SEcomp/sem 4/nodeJS workshop April 27/filetest.js",
+		"/G/BEcomp/SEcomp/sem 4/django internship June 1 June 12/django/README.md",
+		"/G/BEcomp/SEcomp/sem 4/django internship June 1 June 12/python/decorators/decorators.py",
+		"/G/Yash Focusa/focusa v3.0.0/focusaNGINX.conf",
+		"/G/WiFi ads project courtesy Vivek/Access Point/cap_nginx.conf",
+		"/G/DjangoFOCUSA/focusa/focusa/urls.py",
+		"/G/DjangoFOCUSA/focusa/manage.py",
+		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.499/README.md",
+		"/G/BEcomp/sem 4/django internship June 1 June 12/README.md",
+		"/C/Users/Diniz/Desktop/newProject/.git/config",
+		"/G/WiFi ads project courtesy Vivek/Access Point/captivePortalnginx.conf",
+		"/G/Yash Focusa/focusa v3.0.0/pages/postform.htm",
+		"/G/Yash Focusa/focusa v3.0.0/config.json",
+		"/G/Yash Focusa/focusa v3.0.0/README.md",
+		"/G/Yash Focusa/focusa v3.0.0/ydb/database.json",
+		"/G/SIH2019/ECAmpere/app/src/main/java/com/dbcegoa/electrocoders/ecampere/MainActivity.java",
+		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.516/drawer.php",
+		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.893/edit-in.php",
+		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.377/deauth.php",
+		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.461/register.php",
+		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.010/logout.php",
+		"/G/WiFi ads project courtesy Vivek/Web Server/public/script.js",
+		"/G/WiFi ads project courtesy Vivek/Web Server/dashboard.js",
+		"/G/WiFi ads project courtesy Vivek/Web Server/views/index.html",
+		"/G/WiFi ads project courtesy Vivek/Web Server/server.js",
+		"/G/RandomNotes/couchDB.md",
+		"/G/WiFi ads project courtesy Vivek/Web Server/pages/dashboard.html",
+		"/G/WiFi ads project courtesy Vivek/Web Server/pages/index.html",
+		"/G/WiFi ads project courtesy Vivek/Web Server/config.json",
+		"/G/WiFi ads project courtesy Vivek/Web Server/package.json",
+		"/G/RandomNotes/RustOwnership.md",
+		"/C/tasm/8087sincos.asm",
+		"/C/tasm/8087.asm",
+		"/C/Users/Diniz/.ssh/id_rsa.pub",
+		"/C/Users/Diniz/.ssh/known_hosts",
+		"/G/FileRYa.js",
+		"/C/tasm/sin.asm",
+		"/G/Learn Rust/projects/guessing_game/src/main.rs",
+		"/G/Learn Rust/projects/guessing_game/Cargo.toml",
+		"/G/RandomNotes/constructorsAreStatic.md",
+		"/C/Program Files/Git/etc/profile",
+		"/G/Yash Focusa/focusa v3.0.0/pages/posts.htm",
+		"/G/Yash Focusa/focusa v3.0.0/customAcc.js",
+		"/G/Yash Focusa/focusa v3.0.0/server.js",
+		"/G/Yash Focusa/focusa v3.0.0/ydb/ydb.js",
+		"/G/Yash Focusa/focusa v3.0.0/posts.js",
+		"/G/Yash Focusa/focusa v3.0.0/Diary.txt",
+		"/C/Users/Diniz/Documents/NetBeansProjects/Runner/src/runner/Game.java",
+		"/G/SEcomp/JS workshop March 23/tenth.html",
+		"/C/Users/Diniz/Downloads/movies/fileData.json",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/README.md",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/.git/COMMIT_EDITMSG",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/package.json",
+		"/C/Users/Diniz/Documents/NetBeansProjects/Runner/src/README.md",
+		"/C/Users/Diniz/Documents/NetBeansProjects/Runner/src/runner/Config.java",
+		"/C/Users/Diniz/Documents/NetBeansProjects/Runner/src/MANIFEST.MF",
+		"/C/Users/Diniz/Documents/NetBeansProjects/Runner/src/runner/EnemySpawner.java",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/server.sh",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/ydb/.~lock",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/pages/postform.htm",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/.gitignore",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/login.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/pages/posts.htm",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/docs/public/markdown-it.min.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/config.json",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/ydb/ydb.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/pages/login.htm",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/errors/403.htm",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/server.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/converse.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/notifications.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/mail.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/topics.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/dashboard.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/profile.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/approve.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/comments.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/customAcc.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/focusaNGINX.conf",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/ydb/.gitignore",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/posts.js",
+		"/C/Users/Diniz/Desktop/Yash Focusa/focusa v3.0.0/.dockerignore",
+		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.935/README.md",
+		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.881/.INSTALL",
+		"/G/SEcomp/nodeJS workshop April 27/node_modules/lodash/package.json",
+		"/G/SEcomp/nodeJS workshop April 27/node_modules/lodash/_baseUniq.js",
+		"/G/SEcomp/nodeJS workshop April 27/node_modules/lodash/unzip.js",
+		"/G/SEcomp/nodeJS workshop April 27/node_modules/lodash/uniq.js",
+		"/G/SEcomp/nodeJS workshop April 27/cmdline.js",
+		"/G/SEcomp/nodeJS workshop April 27/app.js",
+		"/G/SEcomp/nodeJS workshop April 27/hello.js",
+		"/G/SEcomp/nodeJS workshop April 27/ops.js",
+		"/J/SEcomp/nodeJS workshop April 27/package.json",
+		"/G/randomNOTE-recursion.md",
+		"/G/Yash/fileData.json",
+		"/G/JavStuff/JavaTest/label.java",
+		"/G/randomNOTE-recursion.txt",
+		"/G/QMmajor/FileRYa.js",
+		"/G/hackResult.html",
+		"/G/FileRYa-1.js",
+		"/G/speak.js",
+		"/G/Yash/pi.java",
+		"/G/Yash/E.java",
+		"/C/Users/Diniz/Documents/NetBeansProjects/Runner/src/.git/COMMIT_EDITMSG",
+		"/C/Users/Diniz/Documents/NetBeansProjects/Runner/src/runner/Sprite.java",
+		"/C/Users/Diniz/Documents/NetBeansProjects/Runner/src/runner/ScoreKeeper.java",
+		"/C/Users/Diniz/Documents/NetBeansProjects/Runner/src/runner/Runner.java",
+		"/C/Users/Diniz/Documents/NetBeansProjects/Runner/src/runner/RunnerKeyListener.java",
+		"/G/carpendrive/focusa-production/README.md",
+		"/J/SEcomp/Java/Yash Diniz/src/expt13/FileHandler.java",
+		"/C/tasm/ydinizCO/float2.asm",
+		"/C/tasm/ydinizCO/float1.asm",
+		"/G/QMJava/qm/QMMethod.java",
+		"/G/QMJava/qm/Cube.java",
+		"/G/QMJava/qm/Expression.java",
+		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.460/config.php",
+		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.877/index.php",
+		"/J/SEcomp/Java/Yash Diniz/src/expt11/ExceptionTest.java"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 172.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"max-width: 125px;",
+			"border-width: 2px; font-family: 'Montserrat';",
+			"1.3",
+			"50",
+			"min",
+			"height",
+			"200px",
+			"100px",
+			"22",
+			"h1",
+			"10px 0 0 10px",
+			"padding",
+			"h2",
+			"atTop",
+			"sm",
+			"xl",
+			"mui",
+			"firefox",
+			"}",
+			"kshitijcp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"xs",
+			"sm",
+			"md",
+			"lg",
+			"-"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7412,
+								7412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 60.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ISTE 2019 landing page.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
