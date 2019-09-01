@@ -15,13 +15,14 @@
 		font-family: 'Montserrat';
 	}
 	#header {
-		width: 100%;
+		align-content: center;
+		align-self: center;
 		transition: ease .5s;
 		text-align: center;
-		position: absolute;
+		/*position: absolute;
 		top: 0;
-		left: 0;
-		background-color: transparent;
+		left: 0;*/
+		background-color: rgba(0,0,0,0.7); 
 		z-index: 100;
 	}
 	.goodfont {
@@ -101,16 +102,17 @@
 <div class="frui-container">
 <header>
 	<!--	This will contain the header of the whole thing	-->
-	<div id="header">
-		<img src="images/logo.jpg" class="frui-logo dbcelogo">
-		<img src="images/FiiRE.png" class="frui-logo fiirelogo">
-		<img src="images/iste.png" class="frui-logo istelogo">
-		<!-- 	Put a simple header with logo and menu for mobile devices -->
-	</div>
 	<div class="frui-hero --no-user-select" id="top" style="background-image: url('images/landing.jpg');">
+		<div id="header">
+			<img src="images/logo.jpg" class="frui-logo dbcelogo">
+			<img src="images/FiiRE.png" class="frui-logo fiirelogo">
+			<img src="images/iste.png" class="frui-logo istelogo">
+			<!-- 	Put a simple header with logo and menu for mobile devices -->
+		</div>
 		<!-- Forced this hero to 540px height to accomodate the whole image -->
-		<div style="color: white; background-color: rgba(0,0,0,0.7); padding: 150px 0 50px 0; height: 450px;">
-				<span class="frui-text-large goodfont">1 week ISTE workshop</span>
+		<div style="color: white; background-color: rgba(0,0,0,0.7); padding: 30px 0 50px 0;">
+				<span class="frui-text-large goodfont">1 week workshop by ISTE</span>
+				<h4>(Indian Society for Technical Education)</h4>
 				<h3>on</h3>
 				<h2>Virtual Reality, Augmented Reality and 3D modelling</h2>
 				<p style="margin: 20px; color: white; color: #d0d0d0;" class="goodfont">
@@ -128,8 +130,21 @@
 <div class="frui-section" id="video">
 <div class="frui-panel">
 	<center>
-	<span style="border-color: #ff1719;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Video&nbsp;&nbsp;</span>
-	<p style="width: 75%;">TODO: Embed welcome video.<i class="fa fa-youtube-play"></i></p>
+	<span style="border-color: #ff1719;" class="frui-divider frui-text-headline">Video</span>
+	<p style="width: 75%;"><i class="fa fa-youtube-play"></i> Watch this video by <a href="https://www.linkedin.com/in/vaishnavvharkat">Vaishnav</a> to get an overview of what the workshop has to offer.</p>
+	<iframe src="https://www.youtube.com/embed/0EQ-1y89_ck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 75%; min-height:351px;"></iframe>
+	</center>
+</div>
+</div>
+
+<div class="frui-section" id="aboutISTE">
+<div class="frui-panel">
+	<center>
+	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">About ISTE</span>
+	<p style="width: 75%;">
+		The Indian Society for Technical Education (ISTE) is the leading National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System. At present, ISTE has a very large and an effective membership base consisting of more than 1,02,985 Life Members, 5,54,094 Student Members, 2410 Institutional Members (including IITs, IISc, NITs and other leading technical institutions), 1214 Faculty Chapters, 1322 Students Chapters and 17 Sections throughout the country. The major objective of the ISTE is to provide quality training programmes to teachers and administrators of technical institutions to update their knowledge and skills in their fields of activity and to assist and contribute in the production and development of top quality professional engineers and technicians needed by the industry and other organizations.
+		<br><br><a href="http://www.isteonline.in/"><i class="fa fa-external-link-square"></i>Visit ISTE online</a>
+	</p>
 	</center>
 </div>
 </div>
@@ -137,7 +152,7 @@
 <div class="frui-section" id="glimpses">
 <div class="frui-panel">
 	<center>
-	<span style="border-color: #ff1719;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Previous ISTE Workshops&nbsp;&nbsp;</span>
+	<span style="border-color: #ff1719;" class="frui-divider frui-text-headline">Previous ISTE Workshops</span>
 	<p style="width: 75%;">Have a glimpse into the previous successful ISTE workshops conducted at our college.</p>
 	<div class="frui-container frui-grid-container">TODO: Add previous glimpse photos</div>
 	</center>
@@ -147,7 +162,7 @@
 <div class="frui-section" id="details">
 <div class="frui-panel">
 	<center>
-	<span style="border-color: #ff1719;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Workshop Details&nbsp;&nbsp;</span>
+	<span style="border-color: #ff1719;" class="frui-divider frui-text-headline">Workshop Details</span>
 	<p style="width: 75%;">
 		The purpose of this workshop is to teach the participants how to create an adaptive 3D virtual environment that meets the needs of the end user, and also to test and evaluate that virtual environment. This workshop also promotes the use of Augmented Reality(AR) and 3D Modelling. We will broadly cover the following topics: VR and AR, Animation and Visual Designing, 3D modelling and Projection Mapping, Visual Game development using Unity 3D and an introduction to development tools like Fusion360, Sketchup, etc. 
 		<br>Eminent personalities and experts in the above areas from academia, industries and government organisations will lead the discussion and deliver technical details.
@@ -160,7 +175,7 @@
 <div class="frui-section" id="software">
 <div class="frui-panel">
 	<center>
-	<span style="border-color: #f95b0c;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Software Introduced Here&nbsp;&nbsp;</span>
+	<span style="border-color: #f95b0c;" class="frui-divider frui-text-headline">Software Introduced Here</span>
 	<p style="width: 75%;">This workshop will also introduce you to many software, including the following. Click on the logos below to learn more.</p>
 	<div class="frui-grid-container imglogos" style="width: 75%;">
 		<!-- Yes, they are cluttered intentionally on small phone screens -->
@@ -176,15 +191,15 @@
 <div class="frui-section" id="register">
 <div class="frui-panel">
 	<center>
-	<span style="border-color: #f95b0c;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Register&nbsp;&nbsp;</span>
+	<span style="border-color: #f95b0c;" class="frui-divider frui-text-headline">Registration</span>
 	<p style="width: 75%;">
 		In order to register, click the link given below and fill the form details correctly. The following registration fees apply.
 		<table class="frui-table" style="width: 75%;">
 			<tr><th>Registration Type</th><th>Fee</th></tr>
-			<tr><td>Industry</td><td align="center">Rs. 4,000</td></tr>
-			<tr><td>Faculty</td><td align="center">Rs. 3,500</td></tr>
-			<tr><td>Research Scholar</td><td align="center">Rs. 3,000</td></tr>
 			<tr><td>PG Student</td><td align="center">Rs. 2,500</td></tr>
+			<tr><td>Research Scholar</td><td align="center">Rs. 3,000</td></tr>
+			<tr><td>Faculty</td><td align="center">Rs. 3,500</td></tr>
+			<tr><td>Industry</td><td align="center">Rs. 4,000</td></tr>
 		</table>
 		<br><br><a href="https://forms.gle/1sUT7PqDKiKw2W9S8"><i class="fa fa-pencil-square"></i>Click here to fill the Registration Form.</a>
 	</p>
@@ -195,7 +210,7 @@
 <!-- <div class="frui-section">
 <div class="frui-panel">
 	<center>
-	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Committee&nbsp;&nbsp;</span>
+	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">Committee</span>
 	<p style="width: 75%;">
 		<b>Chief Patron:</b> Rev Fr. Kinley D'Cruz, Director DBCE.<br>
 		<b>Patron:</b> Dr. Neena S. P. Panandikar, Principal DBCE.<br>
@@ -208,7 +223,7 @@
 <div class="frui-section" id="contactus">
 <div class="frui-panel">
 	<center>
-	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">&nbsp;&nbsp;Contact Us&nbsp;&nbsp;</span>
+	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">Contact Us</span>
 	<p style="width: 75%; padding: 10px">You can contact the faculty coordinators of this event using the details given below.
 	<div class="frui-grid-container contacts" style="width: 80%;">
 		<p>
@@ -232,33 +247,21 @@
 </div>
 </div>
 
-<div class="frui-section" id="aboutISTE">
-<div class="frui-panel">
-	<center>
-	<span style="border-color: #4fa2f8;" class="frui-divider frui-text-headline">&nbsp;&nbsp;About ISTE&nbsp;&nbsp;</span>
-	<p style="width: 75%;">
-		The Indian Society for Technical Education (ISTE) is the leading National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System. At present, ISTE has a very large and an effective membership base consisting of more than 1,02,985 Life Members, 5,54,094 Student Members, 2410 Institutional Members (including IITs, IISc, NITs and other leading technical institutions), 1214 Faculty Chapters, 1322 Students Chapters and 17 Sections throughout the country. The major objective of the ISTE is to provide quality training programmes to teachers and administrators of technical institutions to update their knowledge and skills in their fields of activity and to assist and contribute in the production and development of top quality professional engineers and technicians needed by the industry and other organizations.
-		<br><br><a href="http://www.isteonline.in/"><i class="fa fa-external-link-square"></i>Visit ISTE online</a>
-	</p>
-	</center>
-</div>
-</div>
-
 <footer>
 	<!--	This will contain the footer of the whole thing	-->
 	<div class="frui-footer-section">
 		<!-- Oh, the irony in this title -->
 		<span class="frui-text-body frui-divider" style="border-color: white">Clicky Stuff</span>
-		<div class="frui-grid-container frui-footer-section" style="grid-template-columns: auto auto auto auto; grid-template-rows: auto auto auto;">
+		<div class="frui-grid-container frui-footer-section" style="grid-template-columns: auto; grid-template-rows: auto;">
 			<span style="padding:10px 20px"><a href="#video">Welcome Video</a></span>
+			<span style="padding:10px 20px"><a href="#aboutISTE">About ISTE</a></span>
 			<span style="padding:10px 20px"><a href="#glimpses">Previous ISTE workshops</a></span>
 			<span style="padding:10px 20px"><a href="#details">Workshop Details</a></span>
-			<span style="padding:10px 20px"><a href="#software">Software Introduced</a></span>
-			<span style="padding:10px 20px"><a href="#register">Register for event</a></span>
+			<!-- <span style="padding:10px 20px"><a href="#software">Software Introduced</a></span> -->
+			<span style="padding:10px 20px"><a href="#register">Registration</a></span>
 			<span style="padding:10px 20px"><a href="#contactus">Contact Us</a></span>
-			<span style="padding:10px 20px"><a href="#aboutISTE">About ISTE</a></span>
 			<span style="padding:10px 20px"><a href="#top">Back to top</a></span>
-			<div class="frui-copyright-section frui-text-body" style="grid-column-start: span 4;">FRUI framework and Page Design by <a href="https://github.com/yashdiniz"><i class="fa fa-github"></i>/Yash Diniz</a>, 2019 at DBCE Fatorda.</div>
+			<div class="frui-copyright-section frui-text-body" style="grid-column-start: span 3;">FRUI framework and Page Design by <a href="https://github.com/yashdiniz"><i class="fa fa-github"></i>/Yash Diniz</a>, 2019 at DBCE Fatorda.</div>
 		</div>
 	</div>
 </footer>
