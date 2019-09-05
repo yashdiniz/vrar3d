@@ -483,7 +483,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12736,
+				"buffer_size": 12752,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -556,7 +556,7 @@
 	},
 	"expanded_folders":
 	[
-		"/G/ISTE 2019 landing page"
+		"/G/assist/ISTE 2019 landing page"
 	],
 	"file_history":
 	[
@@ -766,15 +766,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12736,
+						"buffer_size": 12752,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4427,
-								4427
+								12752,
+								12752
 							]
 						],
 						"settings":
@@ -801,8 +801,8 @@
 						"selection":
 						[
 							[
-								720,
-								720
+								809,
+								809
 							]
 						],
 						"settings":
@@ -811,7 +811,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 273.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
