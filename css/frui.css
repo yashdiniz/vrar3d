@@ -201,8 +201,8 @@ abbr[title] {
 .frui-btn {
 	padding: 0 26px;
 	display: inline-block;
-	background-color: #fff;
-	color: white !important;
+	background-color: #f5f5f5;
+	color: white;
 	font-weight: 400 !important;
 	font-size: 16px;
 	font-family: inherit;
@@ -230,11 +230,15 @@ abbr[title] {
 	line-height: 50px;
 }
 .frui-btn--primary {
-	color: white;
+	color: white !important;
 	background-color: #4fa2f8;
 }
+.frui-btn--flat {
+	color: black !important;
+	background-color: #f5f5f5;
+}
 .frui-btn--danger {
-	color: white;
+	color: white !important;
 	background-color: #ff1719;
 }
 .frui-btn + .frui-btn {	/* two FRUI buttons next to each other! */
