@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"ali",
+				"align-self\tproperty"
+			],
+			[
+				"overflo",
+				"overflow-wrap\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"conta",
+				"contactus"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"grid-col",
+				"grid-column-start\tproperty"
+			],
+			[
 				"back",
 				"background-color\tproperty"
 			],
@@ -16,24 +52,12 @@
 				"transform\tproperty"
 			],
 			[
-				"min",
-				"min-height\tproperty"
-			],
-			[
-				"ali",
-				"align-items\tproperty"
-			],
-			[
 				"bc",
 				"background-color\tproperty"
 			],
 			[
 				"alig",
 				"align-content\tproperty"
-			],
-			[
-				"i",
-				"img\tTag"
 			],
 			[
 				"grid",
@@ -54,10 +78,6 @@
 			[
 				"border",
 				"border-left\tproperty"
-			],
-			[
-				"font",
-				"font-family\tproperty"
 			],
 			[
 				"mr",
@@ -463,7 +483,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7412,
+				"buffer_size": 12736,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/frui.css",
+			"settings":
+			{
+				"buffer_size": 8818,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -480,6 +509,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"term",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"termin",
+				"Terminus: Open Default Shell in Panel"
+			],
 			[
 				"Package Control: ",
 				"Package Control: List Packages"
@@ -507,14 +556,13 @@
 	},
 	"expanded_folders":
 	[
-		"/G/ISTE 2019 landing page",
-		"/G/ISTE 2019 landing page/images",
-		"/G/ISTE 2019 landing page/js"
+		"/G/ISTE 2019 landing page"
 	],
 	"file_history":
 	[
-		"/G/ISTE 2019 landing page/css/frui.css",
+		"/G/ISTE 2019 landing page/testlatex.tex",
 		"/G/ISTE 2019 landing page/js/particles.js",
+		"/G/ISTE 2019 landing page/css/frui.css",
 		"/C/Users/Diniz/AppData/Local/Temp/vrnf2k1y.bmp",
 		"/G/BEcomp/SEcomp/sem 3/SE/npws/npws.sql",
 		"/G/BEcomp/SEcomp/sem 3/SE/npws/npws/uploads/readme.md",
@@ -639,8 +687,7 @@
 		"/G/QMJava/qm/Cube.java",
 		"/G/QMJava/qm/Expression.java",
 		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.460/config.php",
-		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.877/index.php",
-		"/J/SEcomp/Java/Yash Diniz/src/expt11/ExceptionTest.java"
+		"/C/Users/Diniz/AppData/Local/Temp/Rar$DIa0.877/index.php"
 	],
 	"find":
 	{
@@ -658,6 +705,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"&nbsp;&nbsp;",
+			"Email: ",
+			"p style=\"width: 75%;\"",
+			"style=\"width: 75%;\"",
+			"christina.barretto@dbcegoa.ac.in",
+			"span",
+			"mui",
+			"external-link-square",
+			"link-",
+			"copyright",
 			"max-width: 125px;",
 			"border-width: 2px; font-family: 'Montserrat';",
 			"1.3",
@@ -709,15 +766,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7412,
+						"buffer_size": 12736,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7412,
-								7412
+								4427,
+								4427
 							]
 						],
 						"settings":
@@ -729,6 +786,35 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/frui.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								720,
+								720
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -765,6 +851,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 97.0
+	},
 	"output.exec":
 	{
 		"height": 156.0
@@ -815,7 +905,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 290.0,
+	"side_bar_width": 277.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
