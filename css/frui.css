@@ -1,5 +1,6 @@
 /*
-	Yash's Flat & Round User Interface(YFRUI)(pronounced e-froo-ey)
+	! https://github.com/yashdiniz/FRUI
+	Flat & Round User Interface(YFRUI)(pronounced e-froo-ey)
 	is a new UI designed by me. Inspired by Material UI(https://material.io)
 	but less materialistic, this is my venture into building basic UI frameworks
 	with a minimalistic and professional look.
@@ -8,10 +9,13 @@
 	This code serves to be a template for this website.
 
 	author: Yash Diniz;
-	THE CONTENTS OF THIS FILE IS CURRENTLY UNDER NO LICENSE, AND SO THE AUTHOR RESERVES ALL RIGHTS.
+	THIS WORK IS CURRENTLY UNDER NO LICENSE, AND SO THE AUTHOR RESERVES ALL RIGHTS.
 
 	Required: fonts of weights 300, 400, 500, 700;
 */
+
+/* YES! FRUI contains normalize.css inbuilt!! So no worries, developers! */
+@import url('css/normalize.css');
 
 *, html, body {
 	font-family: "Roboto", "Helvetica Neue", sans-serif;
@@ -313,6 +317,9 @@ button, input, optgroup, select, textarea {
 }
 /* CSS helpers for reponsiveness */
 @media (max-width: 599px) {
+	html, body {
+		min-width: 600px;
+	}
 	.--visible-xs {
 		display: block !important;
 	}
