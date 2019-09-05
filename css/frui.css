@@ -83,6 +83,16 @@
 .frui-divider-right {
 	border-right: solid thin #bbb;
 }
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	height: 1px;
+	background-color: #bbb;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	overflow: visible;
+}
 
 /* FRUI logos */
 img.frui-logo {
@@ -155,13 +165,13 @@ h3, .frui-text-subhead {
 	line-height: 28px;
 	margin: 10px 0 10px 0;
 }
-h4, h5, h6, .frui-text-body {
+h4, .frui-text-body {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 24px;
 	margin: 10px 0 10px 0;
 }
-.frui-text-caption {
+h5, h6, .frui-text-caption {
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 16px;
@@ -177,13 +187,23 @@ h4, h5, h6, .frui-text-body {
 	font-size: 16px;
 	text-transform: uppercase;
 }
+b, strong {
+	font-weight: bolder;
+	font-weight:700;
+}
+abbr[title] {
+	border-bottom: none;
+	-webkit-text-decoration: underline dotted;
+	text-decoration: underline dotted;
+}
 
 /* BUTTONS in FRUI */
 .frui-btn {
 	padding: 0 26px;
 	display: inline-block;
 	background-color: #fff;
-	font-weight: 400;
+	color: white !important;
+	font-weight: 400 !important;
 	font-size: 16px;
 	font-family: inherit;
 	letter-spacing: 0.03em;
