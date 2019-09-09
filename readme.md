@@ -5,5 +5,3 @@ The website code shown here illustrates most of what the current version of [FRU
 [Check out FRUI!](//github.com/yashdiniz/FRUI)
 
 [Official website.](//vrar3d.dbcegoa.ac.in/)
-
-[Github Pages implementation](//yashdiniz.github.io/vrar3d/)
