@@ -24,3 +24,4 @@ $(document).ready(function() {
 		}, config.smoothScrollTime);		//within 500ms
 	});
 });
+

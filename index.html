@@ -14,7 +14,8 @@
 <link rel="icon" type="image/gif" href="images/favicon.gif">
 <!-- This code uses an early version of FRUI -->
 <link rel="stylesheet" type="text/css" href="css/frui.css">
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
+<script type="text/javascript" src="js/frui.js"></script>
 <!-- <script type="text/javascript" src="js/particles.js"></script> -->
 <style type="text/css">
 	span.frui-divider {	/*These attributes will only apply on this page*/
@@ -81,17 +82,6 @@
 		text-align: left;
 	}*/
 </style>
-<script>
-	$(document).ready(function() {
-		$("a[href*='#']").click(function(e) {	//smooth-scroll for links
-			e.preventDefault();
-			var $anchor = $(this);
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top
-			}, 500);
-		});
-	});
-</script>
 </head>
 <body>
 <div class="frui-container" style="/*background-image: linear-gradient(to bottom, #ff7779, #f9ab5c, #4fa2f8)*/">
@@ -146,7 +136,7 @@
 </div>
 </div>
 
-<!-- <div class="frui-section" id="glimpses">
+<div class="frui-section" id="glimpses">
 <div class="frui-panel">
 	<center>
 	<span style="border-color: #f95b0c;" class="frui-divider frui-text-headline">Previous ISTE Workshops</span>
@@ -155,7 +145,7 @@
 	</center>
 </div>
 </div>
- -->
+
 <div class="frui-section" id="details">
 <div class="frui-panel">
 	<center>
@@ -249,10 +239,10 @@
 		<div class="frui-grid-container frui-footer-section" style="grid-template-columns: auto; grid-template-rows: auto;">
 			<span style="padding:10px 20px"><a href="#video">Welcome Video</a></span>
 			<span style="padding:10px 20px"><a href="#aboutISTE">About ISTE</a></span>
-			<!-- <span style="padding:10px 20px"><a href="#glimpses">Previous ISTE workshops</a></span> -->
+			<span style="padding:10px 20px"><a href="#glimpses">Previous ISTE workshops</a></span>
 			<span style="padding:10px 20px"><a href="#details">Workshop Details</a></span>
 			<span style="padding:10px 20px"><a href="#register">Registration</a></span>
-			<!-- <span style="padding:10px 20px"><a href="#contactus">Contact Us</a></span> -->
+			<span style="padding:10px 20px"><a href="#contactus">Contact Us</a></span>
 			<span style="padding:10px 20px"><a href="#top">Back to top</a></span>
 			<div class="frui-copyright-section frui-text-body" style="grid-column-start: span 3;">FRUI framework and Page Design by <a href="https://github.com/yashdiniz"><i class="fa fa-github"></i>/Yash Diniz</a>, 2019 at DBCE Fatorda.</div>
 		</div>
