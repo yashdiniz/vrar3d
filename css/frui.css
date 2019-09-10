@@ -12,7 +12,7 @@
 */
 
 /* YES! FRUI contains normalize.css inbuilt!! So no worries, developers! */
-@import url('css/normalize.css');
+@import url('normalize.css');
 
 *, html, body {
 	font-family: "Roboto", "Helvetica Neue", sans-serif;
