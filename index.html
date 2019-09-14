@@ -251,7 +251,8 @@
 			map.getProjectionObject() // to Spherical Mercator Projection
 		);
 		var zoom=16;
-		map.addLayer(new OpenLayers.Layer.Markers( "Markers" ));	//add a new layer called markers
+		var markers = new OpenLayers.Layer.Markers( "Markers" );
+		map.addLayer(markers);	//add a new layer called markers
 		markers.addMarker(new OpenLayers.Marker(lonLat));	//with the markers in it
 		map.setCenter (lonLat, zoom);	//center the map at that point
 	</script>
