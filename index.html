@@ -239,20 +239,32 @@
 	<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1924.2804612963084!2d73.96912715939175!3d15.291722219888772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb1631736de9d%3A0x980720b4516a7a5!2sDon%20Bosco%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1568359002345!5m2!1sen!2sin" width="400" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIJ9XX2ZvRKCJcFRrl-lRanEtFUow4piM&callback=initMap"></script> -->
 	<!-- This code here adds a google map to the site with a marker as well! -->
-	<div id="googleMap" style="width:75%; height:450px;"></div>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<div id="ContactMap" style="width:75%; height:450px;"></div>
+	<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+	<script>
+		var dbce = {lat: 15.291969, lng: 73.9669025},
+		map = new OpenLayers.Map("ContactMap");
+		map.addLayer(new OpenLayers.Layer.OSM());
+
+		var lonLat = new OpenLayers.LonLat( dbce.lon , dbce.lat ).transform(
+			new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+			map.getProjectionObject() // to Spherical Mercator Projection
+		);
+		var zoom=16;
+		map.addLayer(new OpenLayers.Layer.Markers( "Markers" ));	//add a new layer called markers
+		markers.addMarker(new OpenLayers.Marker(lonLat));	//with the markers in it
+		map.setCenter (lonLat, zoom);	//center the map at that point
+	</script>
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 	<script>
 		// Initialize and add the map
 		function initMap() {
-			// The location of Uluru
-			var uluru = {lat: -25.344, lng: 131.036};
-			// The map, centered at Uluru
-			var map = new google.maps.Map(document.getElementById('googleMap'), {zoom: 4, center: uluru});
-			// The marker, positioned at Uluru
-			var marker = new google.maps.Marker({position: uluru, map: map});
+			var dbce = {lat: 15.291969, lng: 73.9669025};
+			var map = new google.maps.Map(document.getElementById('contactMap'), {zoom: 4, center: dbce}); // Centered map
+			var marker = new google.maps.Marker({position: uluru, map: map}); // with a marker
 		}
 		google.maps.event.addDomListener(window, 'load', initMap);
-	</script>
+	</script> -->
 	</center>
 </div>
 </div>
