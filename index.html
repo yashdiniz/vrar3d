@@ -240,7 +240,7 @@
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIJ9XX2ZvRKCJcFRrl-lRanEtFUow4piM&callback=initMap"></script> -->
 	<!-- This code here adds a google map to the site with a marker as well! -->
 	<div id="ContactMap" style="width:75%; height:450px;"></div>
-	<script src="js/OpenLayers.js"></script>
+	<!-- <script src="js/OpenLayers.js"></script>
 	<script>
 		var dbce = {lat: 15.291969, lng: 73.9669025},
 		map = new OpenLayers.Map("ContactMap");
@@ -255,16 +255,6 @@
 		map.addLayer(markers);	//add a new layer called markers
 		markers.addMarker(new OpenLayers.Marker(lonLat));	//with the markers in it
 		map.setCenter (lonLat, zoom);	//center the map at that point
-	</script>
-	<!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-	<script>
-		// Initialize and add the map
-		function initMap() {
-			var dbce = {lat: 15.291969, lng: 73.9669025};
-			var map = new google.maps.Map(document.getElementById('contactMap'), {zoom: 4, center: dbce}); // Centered map
-			var marker = new google.maps.Marker({position: uluru, map: map}); // with a marker
-		}
-		google.maps.event.addDomListener(window, 'load', initMap);
 	</script> -->
 	</center>
 </div>
