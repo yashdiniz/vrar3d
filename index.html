@@ -236,19 +236,18 @@
 			<i class="fa fa-phone"></i>&nbsp;<a href="tel:+919049050007">+91 90490 50007</a>
 		</p>
 	</div>
+	<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1924.2804612963084!2d73.96912715939175!3d15.291722219888772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb1631736de9d%3A0x980720b4516a7a5!2sDon%20Bosco%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1568359002345!5m2!1sen!2sin" width="400" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIJ9XX2ZvRKCJcFRrl-lRanEtFUow4piM&callback=initMap"></script> -->
 	<!-- This code here adds a google map to the site with a marker as well! -->
-	<div id="google-map" style="width:75%; height:450px;">
-		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1924.2804612963084!2d73.96912715939175!3d15.291722219888772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb1631736de9d%3A0x980720b4516a7a5!2sDon%20Bosco%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1568359002345!5m2!1sen!2sin" width="400" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIJ9XX2ZvRKCJcFRrl-lRanEtFUow4piM&callback=initMap"></script> -->
-	</div>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<div id="googleMap" style="width:75%; height:450px;"></div>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 	<script>
 		// Initialize and add the map
 		function initMap() {
 			// The location of Uluru
 			var uluru = {lat: -25.344, lng: 131.036};
 			// The map, centered at Uluru
-			var map = new google.maps.Map(document.getElementById('google-map'), {zoom: 4, center: uluru});
+			var map = new google.maps.Map(document.getElementById('googleMap'), {zoom: 4, center: uluru});
 			// The marker, positioned at Uluru
 			var marker = new google.maps.Marker({position: uluru, map: map});
 		}
